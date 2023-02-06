@@ -16,8 +16,7 @@ Pod::Spec.new do |spec|
   spec.resource_bundles = {
     "NESDeltaCore" => ["NESDeltaCore/**/*.deltamapping", "NESDeltaCore/**/*.deltaskin", "NestopiaJS/NstDatabase.xml"]
   }
-  
-  spec.dependency 'DeltaCore'
+  spec.swift_version = '5.0'
     
   spec.xcconfig = {
     "SWIFT_ACTIVE_COMPILATION_CONDITIONS" => "FRAMEWORK NATIVE",
