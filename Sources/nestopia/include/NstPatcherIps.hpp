@@ -1,0 +1,1 @@
+../nestopia/source/core/NstPatcherIps.hpp
